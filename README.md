@@ -39,4 +39,26 @@ git push origin
  27 #while True: #Y/N                                                                         │
  28 #print ('The Lava Monster was Te Fiti')                                                   │
  29 #if answer == 'other':                                                                    │
- 30 #    print('Not even Close, do you need a hint?')  
+ 30 #    print('Not even Close, do you need a hint?')  """Childrens Stories | Moana, Big bad wolf"""
+
+
+
+message = 'You will have five guesses for each story'
+round= 0
+Bigbadwolfhints=["These pigs were brothers", "The house was made of Straw", "The house was made of Brick", "He Huffed and He Puffed", "The boiling water burned the Wolf"]
+# each while loop is for each story, correct?
+while True:
+    round = round + 1
+    print(random.choice(Bigbadwolfhints))
+    print('What Story is this"')
+    answer = input("Your guess-->")
+    if answer != "Big bad wolf":
+        print('Not even Close, do you need a hint?')
+
+    if  answer.lower() == "big bad wolf":
+        print("You're Awesome")
+        break
+    elif round == 5:
+        break
+    else:
+        print('Sorry. Try again!') 
