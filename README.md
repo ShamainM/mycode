@@ -9,7 +9,7 @@ cd ~/mycode
 git add *
 git commit -m "working on if, elif, else logic"
 git push origin
-#!/usr/bin/env python3                                                                    │student@bchd:~/mycode$ 
+#!/usr/bin/env python3                                                                    
   2                                                                                           │
   3 import random                                                                             │
   4                                                                                           │
