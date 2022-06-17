@@ -89,3 +89,14 @@ while True: # game begins on this line
   if currentlocation == 'Tefiti mountain' and 'pendant' in inventory and move[0] == "return" and move[1] == "pendant":
       print("You return the Heart of TeFiti from your pendant! YOU WIN!")
       break
+""" Three Little Pigs RPG"""
+
+if currentlocation == 'Moma Pigs House':
+      health= "Health is Good you been living with your moma and you grown time to move out"
+  if currentlocation == 'Southeast' and 'straw' in inventory:
+      health= "Health is Fine you have picked up your supplies and your house is Strawstrong "
+  if currentlocation == 'South' and 'sticks' in inventory:
+      health= "Health is Fine you have a semistrong house"
+  if currentlocation == 'North' and 'bricks' and 'food' and 'pot of boiling water' in inventory:
+      health= "Health is Fantastic you will defeat the big bad wolf."
+      break
