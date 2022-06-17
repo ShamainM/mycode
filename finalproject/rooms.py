@@ -25,39 +25,41 @@ moanalocations= {
                 }
 threelittlepigslocation= {
                'Moma Pig': {
-                        'north' : 'The Woods',
-                        'east' :  'Vendor with supplies',
-                        'item' :  'straw',
-                        },
+                        'south' : 'Woods',
+                          },
                'Woods': {
-                        'north' : 'Another vendor with supplies', 
-                        'item' : 'sticks',
+                        'north' : 'Moma Pig', 
+                        'item' : 'straw',
+                        'south': 'Sticks'
                         },
-               'Deep Woods' : {
-                       'north' : 'Vendor with supplies',
-                       'item' : 'bricks',
-                       'item' : 'food',
-                       'item' : 'pots of boiling water',
-                       'item' : 'fire'
-                       },
+                'Sticks' : {
+                         'south' : 'Bricks',
+                         'north' : 'Woods',
+                          'item' : 'sticks'
+                   },
+                          'Bricks' : {
+                          'southeast': 'Little Pig 1',
+                          'north' : 'Sticks',
+                          'southwest':'Little Pig 2',
+                           'west' : 'Little Pig 3'
+                   },
+             
                'Little Pig 1' : {
-                       'southeast' : 'House of straw',
-                       'south' : 'Little Pig 2 House',
-                       'north' : 'Little Pig 3 House',
+                       'southeast' : 'straw',
+                       'southwest' : 'Little Pig 2',
+                       'north' :     'Sticks',
+                       'west' :      'Bricks',
                        },
                'Little Pig 2': {
-                       'southeast' : 'House of sticks',
-                        'south' : 'Big Bad Wolf is outside',
-                       'southwest': 'Run to Little Pig 2 House',
-                       'north':  'Little Pig 3 House',
+                       'southwest' : 'sticks',
+                       'southeast' : 'Little Pig 1',
+                       'west' :      'Little Pig 3',
                        },   
                'Little Pig 3' : {
-                        'north':  'Little Pig 3 House of Bricks',
-                        'south': 'Fireplace',
-                        'item':  'Fire'
-                        'item':  'Pot of boiling water',
-                        'item':  'Food',
-                      }
+                        'west':  'Little Pig 3',
+                        'southwest' : 'Little Pig 2'
+                        'north' :   ' Bricks'
+                       },
               'Big Bad Wolf: {
                       'southeast':  'Runs to the house of straw huffs and puffs and blows the house down',
                       'southwest':  'Runs to the house of sticks huffs and puffs and blows the house down',
