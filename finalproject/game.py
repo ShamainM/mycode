@@ -92,11 +92,13 @@ while True: # game begins on this line
 """ Three Little Pigs RPG"""
 
 if currentlocation == 'Moma Pigs House':
-      health= "Health is Good you been living with your moma and you grown time to move out"
+      health= "Health is Good you been living with your moma and you too grown time to move out"
   if currentlocation == 'Southeast' and 'straw' in inventory:
-      health= "Health is Fine you have picked up your supplies and your house is Strawstrong "
+      health= "Health is Fine you have picked up your supplies and your house is Straw strong "
   if currentlocation == 'South' and 'sticks' in inventory:
-      health= "Health is Fine you have a semistrong house"
+      health= "Health is Fine you have a stick strong house"
   if currentlocation == 'North' and 'bricks' and 'food' and 'pot of boiling water' in inventory:
-      health= "Health is Fantastic you will defeat the big bad wolf."
+      health= "Health is Fantastic you will defeat the big bad wolf",
+        if currentlocation == 'north' and 'you are on the chimney':
+            health= "Health is terrible you're the big bad wolf and you've just been defeated"
       break
